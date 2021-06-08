@@ -47,6 +47,7 @@ then
         echo "Github ssh private key is set"
     else
         echo "Invalid ssh private key format. Ignore setting up ssh key"
+    fi
 else
     echo "Couldn't find the private key"
 fi
